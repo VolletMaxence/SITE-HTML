@@ -1,0 +1,42 @@
+div.Bienvenue {
+     font-size: 100px;
+     text-align: center;
+     background-color: red;
+     right: 99px;
+     left: 99px;
+     position: absolute;
+     
+}
+
+div.manga {
+    position: absolute;
+    max-width: 1500px;
+    height: 1500px;
+    left: 100px;
+    top: 200px;
+}
+
+div.anime {
+    position: absolute;
+    max-width: 1500px;
+    height: 1500px;
+    left: 700px;
+    right: 700px;
+    top: 200px;
+}
+
+div.CV {
+    position: absolute;
+    max-width: 1500px;
+    height: 1500px;
+    right: 100px;
+    top: 200px;
+}
+
+body{
+    background-image: url(https://images5.alphacoders.com/951/951630.jpg);
+    background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    height: 1800px;
+}
