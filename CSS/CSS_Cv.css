@@ -27,3 +27,11 @@ div.infoperso {
     font-size: x-large;
     margin-left: 3px;
 }
+
+body {
+    background-image: url("image/FondCV.jpg");
+    background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    height: 1800px;
+}
