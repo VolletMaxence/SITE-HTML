@@ -28,10 +28,26 @@ div.infoperso {
     margin-left: 3px;
 }
 
+div.bordure_texte {
+    border-top: 2px solid;
+    width: 81%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+div.bordure_partit {
+    border-top: 6px solid;
+    width: 94%;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 body {
-    background-image: url("image/FondCV.jpg");
+    background-image: url();
     background-size: cover;
     margin: 0;
     background-repeat: no-repeat;
-    height: 1800px;
+    background-attachment: fixed;
 }

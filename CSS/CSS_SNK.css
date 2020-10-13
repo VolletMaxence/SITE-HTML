@@ -1,0 +1,12 @@
+body {
+    background-image: url();
+    background-size: cover;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+div.menu {
+    top: 1px;
+    right: 1px;
+}
