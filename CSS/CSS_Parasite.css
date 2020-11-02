@@ -1,5 +1,5 @@
 body {
-    background-image: url(());
+    background-image: url(https://cdn.pixabay.com/photo/2015/02/10/00/30/background-630401_1280.jpg);
     background-size: cover;
     margin: 0;
     background-repeat: no-repeat;
@@ -9,4 +9,138 @@ body {
 div.menu {
     top: 1px;
     right: 1px;
+}
+
+table{
+    border: 1px solid black;
+    margin:auto;
+    top: 65%;
+    position: absolute;
+    align-items: center;
+}
+th, td {
+    border: 1px solid black;
+  }
+
+div.anime{
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+div.soundcloud{
+    position: absolute;
+}
+
+div.texte {
+    position: absolute;
+    top: 80%;
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px)
+{
+    div.texte{
+        top: 115%;
+    }
+
+    table{
+        border: 1px solid black;
+        margin:auto;
+        top: 80%;
+        position: absolute;
+        align-items: center;
+    }
+    th, td {
+        border: 1px solid black;
+      }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px)
+{
+    div.texte{
+        top: 105%;
+    }
+
+    table{
+        border: 1px solid black;
+        margin:auto;
+        top: 90%;
+        position: absolute;
+        align-items: center;
+    }
+    th, td {
+        border: 1px solid black;
+      }
+}
+
+@media screen and (min-device-width: 578px) and (max-device-width: 768px)
+{
+    div.texte{
+        top: 85%;
+    }
+
+    table{
+        border: 1px solid black;
+        margin:auto;
+        top: 70%;
+        position: absolute;
+        align-items: center;
+    }
+    th, td {
+        border: 1px solid black;
+      }
+}
+
+@media screen and (min-device-width: 425px) and (max-device-width: 578px)
+{
+    div.texte{
+        top: 65%;
+    }
+
+    table{
+        border: 1px solid black;
+        margin:auto;
+        top: 55%;
+        position: absolute;
+        align-items: center;
+    }
+    th, td {
+        border: 1px solid black;
+      }
+}
+
+@media screen and (min-device-width: 375px) and (max-device-width: 425px)
+{
+    div.texte{
+        top: 47%;
+    }
+
+    table{
+        border: 1px solid black;
+        margin:auto;
+        top: 40%;
+        position: absolute;
+        align-items: center;
+    }
+    th, td {
+        border: 1px solid black;
+      }
+}
+
+@media screen and (min-device-width: 300px) and (max-device-width: 375px)
+{
+    div.texte{
+        top: 45%;
+    }
+
+    table{
+        border: 1px solid black;
+        margin:auto;
+        top: 35%;
+        position: absolute;
+        align-items: center;
+    }
+    th, td {
+        border: 1px solid black;
+      }
 }

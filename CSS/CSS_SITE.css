@@ -1,29 +1,43 @@
 div.Bienvenue {
      font-size: 95px;
      text-align: center;
-     background-color: red;
      right: 10%;
      left: 10%;
      position: absolute;
-     top: 1%;
-     
-}
+     top: 1%;  
+    }
 
 div.manga {
     position: absolute;
     max-width: 1500px;
     height: 1500px;
-    left: 20%;
+    left: 15%;
     top: 27%;
-}
+    }
 
 div.CV {
     position: absolute;
     max-width: 1500px;
     height: 1500px;
-    right: 20%;
+    right: 15%;
     top: 27%;
-}
+    }
+
+div.Miniature{
+    position: absolute;
+    max-width: 1500px;
+    height: 1500px;
+    left: 15%;
+    top: 125%;
+    }
+
+div.Formulaire{
+    position: absolute;
+    max-width: 1500px;
+    height: 1500px;
+    right: 15%;
+    top: 125%;
+    }
 
 body {
     background-image: url(https://images8.alphacoders.com/941/941331.jpg);
@@ -31,7 +45,7 @@ body {
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
-}
+    }
 
 
 
@@ -41,102 +55,176 @@ body {
 div.Bienvenue {
     font-size: 95px;
      text-align: center;
-     background-color: blue;
      right: 10%;
      left: 10%;
      position: absolute;
      top: 1%;
-}
+    }
 
-@media screen and (min-width: 1024px) and (max-width: 1440px)
-{
 div.manga {
     position: absolute;
     max-width: 1500px;
     height: 1500px;
     left: 1%;
-    top: 27%;
+    top: 37%;
+    }
 
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1440px)
-{
-    div.CV {
+div.CV {
         position: absolute;
         max-width: 1500px;
         height: 1500px;
         right: 1%;
-        top: 27%;
+        top: 37%;
+    }
 }
 
 
 /* Si l'écran est entre 768 et 1024 pixel*/
 
 
-@media (min-width: 768px) and (max-width: 1024px) 
+@media screen and (max-width: 1024px) and (min-width: 768px) 
 {
     div.Bienvenue {
-        font-size: 99px;
+         font-size: 99px;
          text-align: center;
-         background-color: white;
          right: 10%;
          left: 10%;
          position: absolute;
          top: 1%;
-}
+        }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) 
-{
     div.manga {
         position: absolute;
         max-width: 1500px;
         height: 1500px;
         left: 25%;
-        top: 30%;
-}
+        top: 39%;
+        }
 
-@media screen and (min-width: 768px) and (max-width: 1024px) 
-{
     div.CV {
         position: absolute;
         max-width: 1500px;
         height: 1500px;
         right: 25%;
-        top: 119%;
+        top: 149%;
+        }
 }
 
 
-/* Si l'écran est entre 300 et 600 pixel*/
 
-
-@media screen and (max-width: 768px) 
+/* Si l'écran est entre 425 et 768 pixel*/
+@media screen and (min-device-width: 580px) and (max-device-width: 768px)
 {
     div.Bienvenue {
-        font-size: 45px;
+         font-size: 99px;
          text-align: center;
-         background-color:green;
          right: 10%;
          left: 10%;
          position: absolute;
          top: 1%;
-}
+        }
 
-@media screen and (min-width: 300px) and (max-width: 768px) 
-{
     div.manga {
         position: absolute;
         max-width: 1500px;
         height: 1500px;
-        left: 25%;
-        top: 27%;
-}
+        align-items: center;        
+        top: 24%;
+        }
 
-@media screen and (min-width: 300px) and (max-width: 768px) 
-{
     div.CV {
         position: absolute;
         max-width: 1500px;
         height: 1500px;
-        right: 25%;
-        top: 119%; 
-} 
+        align-items: center;        
+        top: 110%;
+        }
+}
+
+
+/* Si l'écran est entre 425 et 580 pixel*/
+@media screen and (min-device-width: 425px) and (max-device-width: 580px)
+{
+    div.Bienvenue {
+         font-size: 99px;
+         text-align: center;
+         right: 10%;
+         left: 10%;
+         position: absolute;
+         top: 1%;
+        }
+
+    div.manga {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        align-items: center;        
+        top: 23%;
+        }
+
+    div.CV {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        align-items: center;        
+        top: 87%;
+        }
+}
+
+
+@media screen and (min-device-width: 375px) and (max-device-width: 425px)
+{
+    div.Bienvenue {
+         font-size: 99px;
+         text-align: center;
+         right: 10%;
+         left: 10%;
+         position: absolute;
+         top: 1%;
+        }
+
+    div.manga {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        align-items: center;        
+        top: 19%;
+        }
+
+    div.CV {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        align-items: center;        
+        top: 70%;
+        }
+}
+
+
+@media screen and (min-device-width: 325px) and (max-device-width: 375px)
+{
+    div.Bienvenue {
+         font-size: 99px;
+         text-align: center;
+         right: 10%;
+         left: 10%;
+         position: absolute;
+         top: 1%;
+        }
+
+    div.manga {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        align-items: center;        
+        top: 15%;
+        }
+
+    div.CV {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        align-items: center;        
+        top: 57%;
+        }
+}

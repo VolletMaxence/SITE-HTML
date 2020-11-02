@@ -1,27 +1,155 @@
 div.SNK {
     position: absolute;
-    top: 200px;
-    left: 100px;
-    float: left;
+    top: 15%;
+    left: 15%;
 }
 
 div.Parasite {
     position: absolute;
     float: right;
-    top: 180px;
-    right: 100px;
+    top: 15%;
+    right: 15%;
 }
 
-div.menu {
-    top: 1px;
-    right: 1px;
+div.Menu {
+    top: 11px;
+    right: 11px;
 }
 
 body {
-    background-image: url();
+    background-image: url(https://cdn.pixabay.com/photo/2015/02/10/00/30/background-630401_1280.jpg);
     background-size: cover;
     margin: 0;
     background-repeat: no-repeat;
     background-attachment: fixed;
 }
 
+@media screen and (min-width: 1024px) and (max-width: 1440px)
+{
+div.SNK {
+    position: absolute;
+    max-width: 1500px;
+    height: 1500px;
+    left: 1%;
+    top: 37%;
+    }
+
+div.Parasite {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 1%;
+        top: 37%;
+    }
+}
+
+
+/* Si l'écran est entre 768 et 1024 pixel*/
+
+
+@media screen and (max-width: 1024px) and (min-width: 768px) 
+{
+    div.SNK {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 25%;
+        top: 30%;
+        }
+
+    div.Parasite {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 25%;
+        top: 160%;
+        }
+}
+
+
+
+/* Si l'écran est entre 425 et 768 pixel*/
+@media screen and (min-device-width: 580px) and (max-device-width: 768px)
+{
+    div.SNK {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 25%;
+        top: 17%;
+        }
+
+    div.Parasite {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 25%;
+        top: 113%;
+        }
+}
+
+
+/* Si l'écran est entre 425 et 580 pixel*/
+@media screen and (min-device-width: 425px) and (max-device-width: 580px)
+{
+    div.SNK {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 25%;
+        top: 10%;
+        }
+
+    div.Parasite {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 25%;
+        top: 83%;
+        }
+}
+
+
+@media screen and (min-device-width: 375px) and (max-device-width: 425px)
+{
+     div.SNK {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 25%;
+        top: 2%;
+        }
+
+    div.Parasite {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 25%;
+        top: 60%;
+        }
+}
+
+
+@media screen and (min-device-width: 325px) and (max-device-width: 375px)
+{
+    div.SNK {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 25%;
+        top: 10%;
+        }
+
+    div.Parasite {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 25%;
+        top: 60%;
+        }
+
+    div.menu{
+        width: 100px;
+        height: 100px;
+    }
+}
