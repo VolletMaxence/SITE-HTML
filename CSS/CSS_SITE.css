@@ -52,30 +52,46 @@ body {
 
 @media screen and (min-width: 1024px) and (max-width: 1440px)
 {
-div.Bienvenue {
-    font-size: 95px;
-     text-align: center;
-     right: 10%;
-     left: 10%;
-     position: absolute;
-     top: 1%;
-    }
+    div.Bienvenue {
+        font-size: 95px;
+         text-align: center;
+         right: 10%;
+         left: 10%;
+         position: absolute;
+         top: 1%;
+        }
 
-div.manga {
-    position: absolute;
-    max-width: 1500px;
-    height: 1500px;
-    left: 1%;
-    top: 37%;
-    }
+    div.manga {
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 1%;
+        top: 37%;
+        }
 
-div.CV {
+    div.CV {
+            position: absolute;
+            max-width: 1500px;
+            height: 1500px;
+            right: 1%;
+            top: 37%;
+        }
+
+    div.Miniature{
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 1%;
+        top: 120%;
+        }
+    
+    div.Formulaire{
         position: absolute;
         max-width: 1500px;
         height: 1500px;
         right: 1%;
-        top: 37%;
-    }
+        top: 120%;
+        }
 }
 
 
@@ -106,7 +122,23 @@ div.CV {
         max-width: 1500px;
         height: 1500px;
         right: 25%;
-        top: 149%;
+        top: 119%;
+        }
+
+    div.Miniature{
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 25%;
+        top: 163%;
+        }
+        
+    div.Formulaire{
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 25%;
+        top: 200%;
         }
 }
 
@@ -137,8 +169,24 @@ div.CV {
         max-width: 1500px;
         height: 1500px;
         align-items: center;        
-        top: 110%;
+        top: 90%;
         }
+
+        div.Miniature{
+            position: absolute;
+            max-width: 1500px;
+            height: 1500px;
+            left: 25%;
+            top: 123%;
+            }
+            
+        div.Formulaire{
+            position: absolute;
+            max-width: 1500px;
+            height: 1500px;
+            right: 25%;
+            top: 150%;
+            }
 }
 
 
@@ -167,8 +215,24 @@ div.CV {
         max-width: 1500px;
         height: 1500px;
         align-items: center;        
-        top: 87%;
+        top: 70%;
         }
+
+        div.Miniature{
+            position: absolute;
+            max-width: 1500px;
+            height: 1500px;
+            left: 25%;
+            top: 95%;
+            }
+            
+        div.Formulaire{
+            position: absolute;
+            max-width: 1500px;
+            height: 1500px;
+            right: 25%;
+            top: 115%;
+            }
 }
 
 
@@ -196,8 +260,24 @@ div.CV {
         max-width: 1500px;
         height: 1500px;
         align-items: center;        
-        top: 70%;
+        top: 54%;
         }
+
+        div.Miniature{
+            position: absolute;
+            max-width: 1500px;
+            height: 1500px;
+            left: 25%;
+            top: 75%;
+            }
+            
+        div.Formulaire{
+            position: absolute;
+            max-width: 1500px;
+            height: 1500px;
+            right: 25%;
+            top: 95%;
+            }
 }
 
 
@@ -225,6 +305,22 @@ div.CV {
         max-width: 1500px;
         height: 1500px;
         align-items: center;        
-        top: 57%;
+        top: 48%;
         }
+
+        div.Miniature{
+            position: absolute;
+            max-width: 1500px;
+            height: 1500px;
+            left: 25%;
+            top: 66%;
+            }
+            
+        div.Formulaire{
+            position: absolute;
+            max-width: 1500px;
+            height: 1500px;
+            right: 25%;
+            top: 85%;
+            }
 }
