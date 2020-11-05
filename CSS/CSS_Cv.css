@@ -1,21 +1,23 @@
 /* Texte */
 
-div.Texte {
+.Texte {
     font-weight: 100;
     font-size: 26px;
     margin-left: 31px;
     text-align: center;
+    white-space: pre-line;
 }
 
-div.infoperso {
+.infoperso {
     font-weight: 100;
     font-size: 27px;
     margin-left: 3px;
+    white-space: pre-line;
 }
 
 /* Title */
 
-div.Titre {
+.Titre {
     font-style: italic;
     text-decoration: underline black;
     font-size: 49px;
@@ -24,15 +26,16 @@ div.Titre {
     text-align: center;
 }
 
-div.Titre2 {
+.Titre2 {
     text-decoration: underline black;
     font-weight: bold;
     font-size: 31px;
     margin-left: 9px;
     text-align: center;
+    white-space: pre-line;
 }
 
-div.TitreSkill {
+.TitreSkill {
     text-decoration: underline black;
     font-weight: bold;
     font-size: 36px;
@@ -42,7 +45,7 @@ div.TitreSkill {
 
 /* bordure de délimitation */
 
-div.bordure_partit {
+.bordure_partit {
     border-top: 7px solid;
     width: 94%;
     color: black;
@@ -50,7 +53,7 @@ div.bordure_partit {
     margin-right: auto;
 } 
 
-div.bordure_texte {
+.bordure_texte {
     border-top: 3px solid;
     width: 81%;
     color: black;
@@ -58,7 +61,7 @@ div.bordure_texte {
     margin-right: auto;
 }
 
-div.bordure_skill {
+.bordure_skill {
     border-top: 2px solid;
     width: 39%;
     color: black;
@@ -66,12 +69,12 @@ div.bordure_skill {
     margin-right: auto;
 } 
 
-/* body */
 
-body {
-    background-image: url();
-    background-size: cover;
-    margin: 0;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+
+@media screen and (max-device-width: 325px)
+{
+    div.langue{
+        margin-left: auto;
+        margin-right: auto;
+    }
 }

@@ -281,7 +281,7 @@ body {
 }
 
 
-@media screen and (min-device-width: 325px) and (max-device-width: 375px)
+@media screen and (min-device-width: 320px) and (max-device-width: 375px)
 {
     div.Bienvenue {
          font-size: 99px;
