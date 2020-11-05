@@ -54,11 +54,11 @@ body {
 {
     div.Bienvenue {
         font-size: 95px;
-         text-align: center;
-         right: 10%;
-         left: 10%;
-         position: absolute;
-         top: 1%;
+        text-align: center;
+        right: 10%;
+        left: 10%;
+        position: absolute;
+        top: 1%;
         }
 
     div.manga {
@@ -70,11 +70,11 @@ body {
         }
 
     div.CV {
-            position: absolute;
-            max-width: 1500px;
-            height: 1500px;
-            right: 1%;
-            top: 37%;
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 1%;
+        top: 37%;
         }
 
     div.Miniature{
@@ -101,12 +101,12 @@ body {
 @media screen and (max-width: 1024px) and (min-width: 768px) 
 {
     div.Bienvenue {
-         font-size: 99px;
-         text-align: center;
-         right: 10%;
-         left: 10%;
-         position: absolute;
-         top: 1%;
+        font-size: 99px;
+        text-align: center;
+        right: 10%;
+        left: 10%;
+        position: absolute;
+        top: 1%;
         }
 
     div.manga {
@@ -148,12 +148,12 @@ body {
 @media screen and (min-device-width: 580px) and (max-device-width: 768px)
 {
     div.Bienvenue {
-         font-size: 99px;
-         text-align: center;
-         right: 10%;
-         left: 10%;
-         position: absolute;
-         top: 1%;
+        font-size: 99px;
+        text-align: center;
+        right: 10%;
+        left: 10%;
+        position: absolute;
+        top: 1%;
         }
 
     div.manga {
@@ -172,21 +172,21 @@ body {
         top: 90%;
         }
 
-        div.Miniature{
-            position: absolute;
-            max-width: 1500px;
-            height: 1500px;
-            left: 25%;
-            top: 123%;
-            }
+    div.Miniature{
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 25%;
+       top: 123%;
+        }
             
-        div.Formulaire{
-            position: absolute;
-            max-width: 1500px;
-            height: 1500px;
-            right: 25%;
-            top: 150%;
-            }
+    div.Formulaire{
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 25%;
+        top: 150%;
+        }
 }
 
 
@@ -194,12 +194,12 @@ body {
 @media screen and (min-device-width: 425px) and (max-device-width: 580px)
 {
     div.Bienvenue {
-         font-size: 99px;
-         text-align: center;
-         right: 10%;
-         left: 10%;
-         position: absolute;
-         top: 1%;
+        font-size: 99px;
+        text-align: center;
+        right: 10%;
+        left: 10%;
+        position: absolute;
+        top: 1%;
         }
 
     div.manga {
@@ -218,21 +218,21 @@ body {
         top: 70%;
         }
 
-        div.Miniature{
-            position: absolute;
-            max-width: 1500px;
-            height: 1500px;
-            left: 25%;
-            top: 95%;
-            }
+    div.Miniature{
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 25%;
+        top: 95%;
+        }
             
-        div.Formulaire{
-            position: absolute;
-            max-width: 1500px;
-            height: 1500px;
-            right: 25%;
-            top: 115%;
-            }
+    div.Formulaire{
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 25%;
+        top: 115%;
+        }
 }
 
 
@@ -263,33 +263,33 @@ body {
         top: 54%;
         }
 
-        div.Miniature{
-            position: absolute;
-            max-width: 1500px;
-            height: 1500px;
-            left: 25%;
-            top: 75%;
-            }
+    div.Miniature{
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 25%;
+        top: 75%;
+        }
             
-        div.Formulaire{
-            position: absolute;
-            max-width: 1500px;
-            height: 1500px;
-            right: 25%;
-            top: 95%;
-            }
+    div.Formulaire{
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 25%;
+        top: 95%;
+        }
 }
 
 
 @media screen and (min-device-width: 320px) and (max-device-width: 375px)
 {
     div.Bienvenue {
-         font-size: 99px;
-         text-align: center;
-         right: 10%;
-         left: 10%;
-         position: absolute;
-         top: 1%;
+        font-size: 99px;
+        text-align: center;
+        right: 10%;
+        left: 10%;
+        position: absolute;
+        top: 1%;
         }
 
     div.manga {
@@ -308,19 +308,19 @@ body {
         top: 48%;
         }
 
-        div.Miniature{
-            position: absolute;
-            max-width: 1500px;
-            height: 1500px;
-            left: 25%;
-            top: 66%;
-            }
+    div.Miniature{
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        left: 25%;
+        top: 66%;
+        }
             
-        div.Formulaire{
-            position: absolute;
-            max-width: 1500px;
-            height: 1500px;
-            right: 25%;
-            top: 85%;
-            }
+    div.Formulaire{
+        position: absolute;
+        max-width: 1500px;
+        height: 1500px;
+        right: 25%;
+        top: 85%;
+        }
 }

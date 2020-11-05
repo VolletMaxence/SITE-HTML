@@ -69,12 +69,3 @@
     margin-right: auto;
 } 
 
-
-
-@media screen and (max-device-width: 325px)
-{
-    div.langue{
-        margin-left: auto;
-        margin-right: auto;
-    }
-}
